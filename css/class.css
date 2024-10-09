@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Exo:ital,wght@0,100..900;1,100..900&display=swap");
+
+.primaryLight {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.primaryReg {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.primaryMid {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.primaryBold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.secondaryLight {
+  font-family: "SUSE", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.secondaryReg {
+  font-family: "SUSE", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.secondaryMid {
+  font-family: "SUSE", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.secondaryBold {
+  font-family: "SUSE", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.headingLight {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.headingReg {
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headingMid {
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.headingBold {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.headingBolder {
+  font-family: "Exo", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* ================ TextSizes================= */
+
+.text-xsm {
+  font-size: 0.75rem;
+}
+.text-sm {
+  font-size: 1rem;
+}
+.text-md {
+  font-size: 1.2rem;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
+
+.text-xl {
+  font-size: 1.5rem;
+}
+
+.heading-xs {
+  font-size: 1.25rem;
+}
+
+.heading-sm {
+  font-size: 1.5rem;
+}
+
+.heading-md {
+  font-size: 2rem;
+}
+
+.heading-lg {
+  font-size: 2.2rem;
+}
+
+.heading-xl {
+  font-size: 3rem;
+}
+.heading-xxl {
+  font-size: 3.3rem;
+}
+.heading-xxxl {
+  font-size: 4rem;
+}
+
+/* CustomhightWidth/Hight */
+.h-100 {
+  height: 100%;
+}
+.h-50 {
+  height: 50%;
+}
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.mw-800px {
+  max-width: 700px;
+}
+.mh-80px {
+  min-height: 80px;
+}
+
+/* ================ Colors================= */
+
+.lightColor {
+  color: #fff;
+}
+.darkColor {
+  color: #111111;
+}
+.textColor {
+  color: #c3c3c3;
+}
+.textColorTwo {
+  color: #2d3333;
+}
+.primaryColor {
+  color: #0098c6;
+}
+.secondaryColor {
+  color: #fff;
+}
+
+/* ================ BgColors================= */
+
+.bgTrue {
+  background-color: #047da3;
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ================ CustomDisplayProperty================= */
+
+.contentCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentCenterCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================ CustomBtn================= */
+.primaryBtn {
+  position: relative;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-family: "Jost", system-ui;
+  font-weight: 700;
+  color: #047da3;
+  text-decoration: none;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 200px;
+  text-align: center;
+  border: 2px solid #047da3;
+  transition: 0.4s;
+  z-index: 1;
+  box-shadow: 0 0 8px #047da3;
+  border-radius: 10px;
+}
+
+.primaryBtn:hover {
+  color: #fff;
+}
+
+.primaryBtn::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #047da3;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%);
+  z-index: -1;
+  transition: transform 0.4s;
+}
+
+.primaryBtn:hover::before {
+  transform: translateX(0%);
+}
+
+/* ================normalBtn ================= */
+
+.normalBtn {
+  background: linear-gradient(90deg, #047da3, #0bc3fb);
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "SUSE", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.normalBtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.normalBtn:hover::before {
+  left: 100%;
+}
+
+/* ================ TextEffect================= */
+
+.textEffect {
+  color: transparent;
+  background: linear-gradient(90deg, #ef8605, #05b0ff, #eb320c, #05567b);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colorAnimation 5s linear infinite;
+}
+.textEffectTwo {
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    #ffffff,
+    #ef8605,
+    #72b6d6,
+    #05567b,
+    #008cff
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colorAnimation 5s linear infinite;
+}
+@keyframes colorAnimation {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 200%;
+  }
+}
+
+/* ================ BorderBottom Animation================= */
+
+.bbanim {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.bbanim::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    #047da3,
+    #6db2c2,
+    #0581f5,
+    #6db2c2,
+    #047da3
+  );
+  background-size: 200% 100%;
+  animation: border-animation 7s infinite, color-shift 2s infinite linear;
+}
+
+@keyframes border-animation {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  10% {
+    width: 100%;
+    left: 0;
+  }
+  80% {
+    width: 100%;
+    left: 0;
+  }
+  90% {
+    width: 0;
+    left: 100%;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes color-shift {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
