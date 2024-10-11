@@ -184,8 +184,8 @@ header {
 .servicesCon {
   height: auto;
   width: 100%;
-  padding: 50px 0;
-  background: transparent !important;
+  padding: 100px 0;
+  background: linear-gradient(270deg, #000304, #020003fd, #000304, #020003fd);
 }
 
 .service-card {
@@ -196,7 +196,7 @@ header {
   min-height: 280px;
   max-width: 100%;
   background-color: transparent;
-  border: 1px solid #047da3;
+  border: 1px solid #ffffff7b;
   border-radius: 10px;
   box-shadow: 0px 0px 8px #047ea346;
   transition: 0.4s;
@@ -231,7 +231,7 @@ header {
 .industry-expertises {
   height: auto;
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .industry-card {
@@ -295,7 +295,8 @@ header {
 .why-chose {
   height: auto;
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
+  background: linear-gradient(270deg, #000304, #020003fd, #000304, #020003fd);
 }
 
 .highlight-card {
@@ -484,7 +485,7 @@ footer {
   );
   height: auto;
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0 30px 0;
 }
 
 footer img {
@@ -614,7 +615,7 @@ h5 {
 .AboutFour {
   height: auto;
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 .expertiseCard {
   height: 250px;
@@ -670,7 +671,8 @@ h5 {
 .team {
   height: auto;
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
+  background: linear-gradient(270deg, #000304, #020003fd, #000304, #020003fd);
 }
 .team h4 {
   width: 70%;
@@ -753,34 +755,7 @@ h5 {
   }
 }
 
-/* ================ AboutSix/Honors================= */
-.honors {
-  height: 100%;
-  width: 100%;
-  padding: 50px 0;
-}
-
-.honors .awards-card {
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-  background-color: black;
-}
-.honors .extra img {
-  height: 100%;
-}
-.honors .awards-card img {
-  width: 100%;
-}
-@media (max-width: 480px) {
-  .honors .awards-card {
-    height: auto;
-    width: 90%;
-    margin: 0 auto;
-  }
-}
-
-/* ================ AboutSeven/Review================= */
+/* ================ AboutSix/Review================= */
 .reviews {
   height: auto;
   width: 100%;
@@ -850,6 +825,34 @@ h5 {
   flex-direction: column;
   text-align: start;
   margin-top: 10px;
+}
+
+/* ================ AboutSeven/Honors================= */
+.honors {
+  height: auto;
+  width: 100%;
+  padding: 100px 0;
+  background: linear-gradient(270deg, #000304, #020003fd, #000304, #020003fd);
+}
+
+.honors .awards-card {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  background-color: transparent;
+}
+.honors .extra img {
+  height: 100%;
+}
+.honors .awards-card img {
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .honors .awards-card {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 /* ================ Services Section================= */
 
@@ -1203,6 +1206,12 @@ h5 {
 /* ================ webDevelopmentPageThree================= */
 
 /* ================ webDevelopmentPageFour/Slider-section================= */
+.sliderSec {
+  height: auto;
+  width: 100%;
+  padding: 100px 0;
+  background: linear-gradient(270deg, #000304, #020003fd, #000304, #020003fd);
+}
 
 .swiper {
   width: 100%;
@@ -1255,10 +1264,10 @@ h5 {
 
 /* ================PageFive/Technology We Use================= */
 
-.pageSeven {
+.pageFive {
   height: auto;
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .TechWeUse .list-group-item {
@@ -1366,7 +1375,13 @@ h5 {
     font-size: 1.2rem;
   }
 }
-/* ================process ================= */
+/* ================process/PageSix ================= */
+.pageSix {
+  height: auto;
+  width: 100%;
+  padding: 100px 0;
+  background: linear-gradient(270deg, #000304, #020003fd, #000304, #020003fd);
+}
 #process-contents .process-content {
   display: none;
 }
@@ -1479,7 +1494,14 @@ h5 {
 .pageEight {
   height: auto;
   width: 100%;
-  padding: 50px 0;
+  padding: 50px 0 100px 0;
+  background: linear-gradient(
+    270deg,
+    #000304,
+    #020003fd,
+    #000304,
+    #020003fd
+  ) !important;
 }
 .accordion-item {
   background-color: rgba(11, 195, 251, 0.59) !important;
@@ -1525,7 +1547,8 @@ h5 {
   background: radial-gradient(
     circle at top,
     #023341,
-    #00202a,
+    #000304,
+    black,
     black,
     black,
     black,
@@ -1568,7 +1591,7 @@ h5 {
 .ERPsecondPage {
   height: auto;
   width: 100%;
-  padding: 50px 0;
+  padding: 50px 0 100px 0;
 }
 
 .card {
@@ -1580,7 +1603,8 @@ h5 {
 .erpSoftwereModule {
   height: auto;
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0 50px 0;
+  background: linear-gradient(270deg, #000304, #020003fd, #000304, #020003fd);
 }
 .erpSoftwereModule .container {
   margin-bottom: 100px !important;
@@ -1608,54 +1632,110 @@ h5 {
 }
 
 /* ================ Pricing(FourthPage)================= */
-.pricing-section {
+.prcingCards {
   height: auto;
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
+  background-color: #000;
 }
 
 .pricing-card {
-  background-color: transparent !important;
-  border: 2px solid #038bb5 !important;
-  color: #c3c3c3 !important;
-}
-
-.pricing-card .card-price {
-  color: #fff;
-}
-
-.pricing-card .pricing-details {
-  text-align: left;
-  font-size: 1.2rem;
-}
-
-.pricing-card .pricing-details li {
-  margin-bottom: 0.5rem;
-}
-
-.pricing-card .card-footer {
-  background-color: transparent;
-  border-top: 1px solid #038bb5;
-}
-
-.PriceBtn {
-  text-decoration: none;
-  background: linear-gradient(90deg, #047da3, #0bc3fb);
-  color: #ffffff;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  font-family: "SUSE", system-ui;
-  font-weight: 700;
-  font-style: normal;
-  position: relative;
+  background-color: #161616;
+  color: #e0e0e0;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
   overflow: hidden;
+  position: relative;
 }
 
-.PriceBtn:hover::before {
-  left: 100%;
+.pricing-card.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #04a3d1, #047da3);
+}
+
+.pricing-card:hover,
+.pricing-card.active {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(4, 163, 209, 0.2);
+  background-color: #2a2a2a;
+}
+
+.pricing-card h2 {
+  color: #04a3d1;
+  font-size: 24px;
+  text-align: center;
+}
+
+.pricing-card .price {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.pricing-card li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #3a3a3a;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.pricing-card li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.pricing-card i {
+  margin-right: 8px;
+  color: #04a3d1;
+}
+
+.pricing-card .fa-times {
+  color: #ff4d4d;
+}
+
+.pricing-card button {
+  background: linear-gradient(90deg, #04a3d1, #047da3);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+}
+
+.pricing-card button:hover {
+  background: linear-gradient(90deg, #047da3, #04a3d1);
+  box-shadow: 0 5px 15px rgba(4, 163, 209, 0.4);
+}
+
+@media (max-width: 768px) {
+  .pricing-card {
+    margin-bottom: 30px;
+  }
 }
 
 /* ================ workingProcess(pageFive)================= */
@@ -1663,159 +1743,163 @@ h5 {
 .workingProcess {
   height: auto;
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
+  background: linear-gradient(270deg, #000304, #020003fd, #000304, #020003fd);
 }
 
 .workingProcess .card {
   min-height: 200px;
 }
-
-/* ================ modal================= */
-/* Modal styles */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  left: 0;
-  top: 0;
+.FAQ {
+  padding: 100px 0;
+  background-color: black;
+  height: auto;
   width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
 }
-
-.modal.show {
-  display: block;
-  opacity: 1;
-}
+/* ================ FAQ (pageSixth)================= */
+/* ================ modal================= */
 
 .modal-content {
-  background-color: #fefefe;
-  margin: 5% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 90%;
-  max-width: 1000px;
-  display: flex;
-  position: relative;
-  transform: translateY(-50px);
-  transition: transform 0.5s ease-in-out;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  overflow: hidden;
 }
 
-.modal.show .modal-content {
-  transform: translateY(0);
+.modal-header {
+  background-color: transparent;
+  border-bottom: none;
+  padding: 1.5rem 1.5rem 0;
 }
 
-.close {
-  color: #aaa;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: color 0.3s ease;
-  z-index: 1;
+.btn-close {
+  background-color: #047da3;
+  opacity: 1;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: 0.4s;
 }
 
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
+.btn-close:hover {
+  background-color: #038bb5;
+  color: white;
 }
 
-.modal-image {
-  flex: 0 0 30%;
-  max-width: 300px;
+.modal-body {
+  padding: 2rem;
+}
+
+.appointment-modal-L img {
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
   height: 300px;
-  margin-right: 20px;
-}
-
-.modal-image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
 }
 
-.modal-text {
-  flex: 1;
+.appointment-modal-L img:hover {
+  transform: scale(1.05);
+}
+
+.appointment-modal-R {
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  text-align: left;
+  height: 100%;
 }
 
-.modal-text h2 {
-  margin-bottom: 15px;
+.appointment-modal-R h2 {
   color: #333;
-  font-size: 24px;
+  margin-bottom: 5px !important;
+  font-weight: 700 !important;
+  line-height: 1.3;
+  font-size: 25px !important;
 }
 
-.modal-text p {
-  margin-bottom: 20px;
-  color: #666;
+.appointment-text-color {
+  color: #038bb5;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-modal-R p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+.appointment-modal-R img {
+  height: auto;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.appointmentBtn {
+  background: linear-gradient(45deg, #047da3, #038bb5);
+  color: white !important;
+  padding: 12px 10px !important;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+}
+
+.fs-14 {
   font-size: 16px;
+  color: #777;
 }
 
-.book-appointment {
-  background-color: #047da3;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-bottom: 15px;
-  font-size: 18px;
-  transition: background-color 0.3s ease;
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .modal-body {
+    padding: 1.5rem;
+  }
+
+  .appointment-modal-L {
+    margin-bottom: 1.5rem;
+  }
 }
 
-.book-appointment:hover {
-  background-color: #035f7a;
-}
-
-.consultation-text {
-  font-style: italic;
-  margin-bottom: 15px;
-  color: #888;
-}
-
-.logo {
-  max-width: 150px;
-  margin-top: 15px;
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .modal-content {
-    flex-direction: column;
-    align-items: center;
-    margin: 10% auto;
+    border-radius: 15px;
   }
 
-  .modal-image {
-    margin-right: 0;
-    margin-bottom: 20px;
-    max-width: 100%;
-    height: 200px;
+  .modal-body {
+    padding: 1rem;
   }
 
-  .modal-text {
-    align-items: center;
+  .appointment-modal-L img {
+    border-radius: 10px;
+  }
+
+  .appointment-modal-R {
+    padding: 0.5rem;
     text-align: center;
   }
 
-  .modal-text h2 {
-    font-size: 20px;
+  .appointment-modal-R h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 
-  .modal-text p {
-    font-size: 14px;
+  .appointment-modal-R p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
   }
 
-  .book-appointment {
-    font-size: 16px;
+  .appointment-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .fs-14 {
+    font-size: 12px;
   }
 }

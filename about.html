@@ -136,7 +136,7 @@
         </div>
 
         <!-- ================= AboutThree/IndustryExpertises================= -->
-        <div class="industry-expertises text-center ">
+        <div class="industry-expertises text-center secondaryBg">
             <h2 class=" textEffect">Our Industry Expertise</h2>
             <h4 class="text-xl primaryReg textColor ScrollBottom">Delivering Innovation Across Sectors</h4>
             <div
@@ -286,7 +286,7 @@
 
         <!-- ================= AboutFive/team================= -->
         <div class="team">
-            <div class="container py-5 text-center">
+            <div class="container text-center">
                 <h2 class="textEffect">A squad of talented members</h2>
                 <h4 class="my-4">We are a close-knit squad of
                     exceptionally
@@ -356,48 +356,9 @@
             </div>
         </div>
 
-        <!-- ================= AboutSix/Honor================= -->
-        <div class="honors py-5 text-center primaryBg">
-            <h2 class="textEffect mb-5">Honors and Awards</h2>
-            <div class="container mt-5">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-6 g-4">
-                    <div class="col">
-                        <div class="awards-card">
-                            <img src="imgs/about/02.png" alt="" class="img-fluid mb-3">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="awards-card">
-                            <img src="imgs/about/03.png" alt="" class="img-fluid mb-3">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="awards-card">
-                            <img src="imgs/about/04.png" alt="" class="img-fluid mb-3">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="awards-card">
-                            <img src="imgs/about/05.png" alt="" class="img-fluid mb-3">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="awards-card">
-                            <img src="imgs/about/06.png" alt="" class="img-fluid mb-3">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="awards-card extra">
-                            <img src="imgs/about/07.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ================= AboutSeven/Reviews================= -->
+        <!-- ================= AboutSix/Reviews================= -->
         <div class="reviews contentCenterCol">
-            <h2 class="textEffect text-center">Our Valuable Customer Reviews</h2>
+            <h2 class="textEffect text-center mt-4">Our Valuable Customer Reviews</h2>
             <div class=" container contentCenter my-5 textColor ">
                 <div class="slider" style="
                                 --width: 350px;
@@ -501,17 +462,58 @@
             </div>
         </div>
 
-        <!-- ================= Book,a,Call(beforeFooter)================= -->
-        <div class="bookCall container px-5 mx-auto">
-            <div class="row bookCallDiv align-items-center justify-content-center">
-                <img src="imgs/dot.png" alt="">
-                <div class="col-lg-8">
-                    <h3 class="heading-lg headingBold ms-5">Have a Project in mind? <br> lets talk!</h3>
+        <!-- ================= AboutSeven/Honor================= -->
+        <div class="honors py-5 text-center primaryBg">
+            <h2 class="textEffect mb-5">Honors and Awards</h2>
+            <div class="container mt-5">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-6 g-4">
+                    <div class="col">
+                        <div class="awards-card">
+                            <img src="imgs/about/02.png" alt="" class="img-fluid mb-3">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="awards-card">
+                            <img src="imgs/about/03.png" alt="" class="img-fluid mb-3">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="awards-card">
+                            <img src="imgs/about/04.png" alt="" class="img-fluid mb-3">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="awards-card">
+                            <img src="imgs/about/05.png" alt="" class="img-fluid mb-3">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="awards-card">
+                            <img src="imgs/about/06.png" alt="" class="img-fluid mb-3">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="awards-card extra">
+                            <img src="imgs/about/07.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4 py-5 d-flex
-                                        flex-column gap-3">
-                    <a class="ScrollLeft" href="">Book a Call</a>
-                    <a class="ScrollLeft" href="">Contact US</a>
+            </div>
+        </div>
+
+        <!-- ================= Book,a,Call(beforeFooter)================= -->
+        <div class="wrapper secondaryBg pb-5">
+            <div class="bookCall container px-5 mx-auto">
+                <div class="row bookCallDiv align-items-center justify-content-center">
+                    <img src="imgs/dot.png" alt="">
+                    <div class="col-lg-8">
+                        <h3 class="heading-lg headingBold ms-5">Have a Project in mind? <br> lets talk!</h3>
+                    </div>
+                    <div class="col-lg-4 py-5 d-flex
+                                                    flex-column gap-3">
+                        <a class="ScrollLeft" href="">Book a Call</a>
+                        <a class="ScrollLeft" href="">Contact US</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -561,7 +563,44 @@
         </footer>
     </div>
 
+    <!-- =================Modal ================= -->
+    <div class="modal fade show" id="appointment" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content radius_20">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row gx-3 gx-lg-5">
+                            <div class="col-lg-5">
+                                <div class="appointment-modal-L">
+                                    <img class="img-fluid" src="imgs/1st.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7 text-center d-flex align-items-center justify-content-center">
+                                <div class="appointment-modal-R">
+                                    <h2 class="fs-4 mb-4">Thinking <span class="appointment-text-color">Hassle
+                                            Free</span>
+                                        <br> Software Development Service?
+                                    </h2>
+                                    <p>We provide custom software development services for business ERP solutions,
+                                        blockchain, hospitality, e-commerce, e-learning &amp; others.</p>
+                                    <a href="https://www.bdtask.com/custom-order.html" target="_blank"
+                                        class="appointmentBtn mb-3">Book Appointment</a>
+                                    <p class="fs-14">For <span class="appointment-text-color">30 Minutes</span> Free
+                                        Consultancy</p>
+                                    <img src="imgs/Lilium-Logo-Color .png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <script src="js/modal.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>

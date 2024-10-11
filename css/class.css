@@ -157,6 +157,15 @@
 .secondaryColor {
   color: #fff;
 }
+.secondaryBg {
+  background: linear-gradient(
+    270deg,
+    #000304,
+    #020003fd,
+    #000304,
+    #020003fd
+  ) !important;
+}
 
 /* ================ BgColors================= */
 

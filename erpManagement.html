@@ -488,89 +488,70 @@
         </div>
 
         <!-- ================= Pricing(FourthPage)================= -->
-        <div class="pricing-section py-5">
-            <div class="container">
-                <h2 class="textEffect headingBold heading-xl text-center ScrollTop mb-5" style="color: #038bb5;">Our
-                    Pricing
-                    Plans</h2>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                    <!-- Regular Plan -->
-                    <div class="col">
-                        <div class="card h-100 pricing-card">
-                            <div class="card-body">
-                                <h3 class="card-title heading-lg headingBold text-center" style="color: #038bb5;">
-                                    Regular</h3>
-                                <h4 class="card-price heading-xl my-4 text-center">$99</h4>
-                                <ul class="list-unstyled pricing-details ps-5">
-                                    <li><i class="fas fa-check text-success me-2"></i>Life time Update</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>3 Months support</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Single domain use</li>
-                                    <li><i class="fas fa-times text-danger me-2"></i>Commercial project use</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Email Support (2 Business days)
-                                    </li>
-                                    <li><i class="fas fa-times text-danger me-2"></i>Skype Support</li>
-                                    <li><i class="fas fa-times text-danger me-2"></i>Anydesk/Teamviewer Support</li>
-                                    <li><i class="fas fa-times text-danger me-2"></i>Whatsapp Support</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Free Installation at cpanel</li>
-                                </ul>
-                            </div>
-                            <div class="card-footer d-flex w-full align-items-center">
-                                <a href="#" class="PriceBtn mx-auto">Choose Plan</a>
-                            </div>
+        <div class="prcingCards">
+            <div class="container mx-auto">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="pricing-card h-100" data-plan="basic">
+                            <h2>Basic</h2>
+                            <div class="price">$9.99/mo</div>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-sync"></i> Lifetime Update</li>
+                                <li><i class="fas fa-calendar-alt"></i> 6 Months of Support</li>
+                                <li><i class="fas fa-globe"></i> Single Domain Use</li>
+                                <li><i class="fas fa-briefcase"></i> Commercial Project Use</li>
+                                <li><i class="fas fa-envelope"></i> Email Support (2 business days)</li>
+                                <li><i class="fab fa-skype"></i> Skype Support <i class="fas fa-times text-danger"></i>
+                                </li>
+                                <li><i class="fas fa-desktop"></i> Anydesk/Teamviewer Support <i
+                                        class="fas fa-times text-danger"></i></li>
+                                <li><i class="fab fa-whatsapp"></i> WhatsApp Support <i
+                                        class="fas fa-times text-danger"></i>
+                                </li>
+                                <li><i class="fas fa-server"></i> Free Installation on cPanel <i
+                                        class="fas fa-times text-danger"></i></li>
+                            </ul>
+                            <button class="btn btn-primary w-100">Choose Plan</button>
                         </div>
                     </div>
-
-                    <!-- Medium Plan -->
-                    <div class="col">
-                        <div class="card h-100 pricing-card">
-                            <div class="card-body">
-                                <h3 class="card-title heading-lg headingBold text-center" style="color: #038bb5;">Medium
-                                </h3>
-                                <h4 class="card-price heading-xl my-4 text-center">$199</h4>
-                                <ul class="list-unstyled pricing-details ps-5">
-                                    <li><i class="fas fa-check text-success me-2"></i>Life time Update</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>6 Months support</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Single domain use</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Commercial project use</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Email Support (1 Business day)
-                                    </li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Skype Support (for 1 hour)</li>
-                                    <li><i class="fas fa-times text-danger me-2"></i>Anydesk/Teamviewer Support</li>
-                                    <li><i class="fas fa-times text-danger me-2"></i>Whatsapp Support</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Free Installation at cpanel</li>
-                                </ul>
-                            </div>
-                            <div class="card-footer d-flex w-full align-items-center">
-                                <a href="#" class="PriceBtn mx-auto">Choose Plan</a>
-                            </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="pricing-card h-100 active" data-plan="standard">
+                            <h2>Standard</h2>
+                            <div class="price">$19.99/mo</div>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-sync"></i> Lifetime Update</li>
+                                <li><i class="fas fa-calendar-alt"></i> 12 Months of Support</li>
+                                <li><i class="fas fa-globe"></i> Single Domain Use</li>
+                                <li><i class="fas fa-briefcase"></i> Commercial Project Use</li>
+                                <li><i class="fas fa-envelope"></i> Email Support (2 business days)</li>
+                                <li><i class="fab fa-skype"></i> Skype Support</li>
+                                <li><i class="fas fa-desktop"></i> Anydesk/Teamviewer Support <i
+                                        class="fas fa-times text-danger"></i></li>
+                                <li><i class="fab fa-whatsapp"></i> WhatsApp Support <i
+                                        class="fas fa-times text-danger"></i>
+                                </li>
+                                <li><i class="fas fa-server"></i> Free Installation on cPanel <i
+                                        class="fas fa-times text-danger"></i></li>
+                            </ul>
+                            <button class="btn btn-primary w-100">Choose Plan</button>
                         </div>
                     </div>
-
-                    <!-- Premium Plan -->
-                    <div class="col">
-                        <div class="card h-100 pricing-card">
-                            <div class="card-body">
-                                <h3 class="card-title heading-lg headingBold text-center" style="color: #038bb5;">
-                                    Premium</h3>
-                                <h4 class="card-price heading-xl my-4 text-center">$299</h4>
-                                <ul class="list-unstyled pricing-details ps-5">
-                                    <li><i class="fas fa-check text-success me-2"></i>Life time Update</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>12 Months support</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Multiple domain use</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Commercial project use</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Email Support (Same day)</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Skype Support (for 2 hours)</li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Anydesk/Teamviewer Support (for 2
-                                        hours)
-                                    </li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Whatsapp Support (for 2 hours)
-                                    </li>
-                                    <li><i class="fas fa-check text-success me-2"></i>Free Installation at cpanel</li>
-                                </ul>
-                            </div>
-                            <div class="card-footer d-flex w-full align-items-center">
-                                <a href="#" class="PriceBtn mx-auto">Choose Plan</a>
-                            </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="pricing-card h-100" data-plan="advanced">
+                            <h2>Advanced</h2>
+                            <div class="price">$29.99/mo</div>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-sync"></i> Lifetime Update</li>
+                                <li><i class="fas fa-calendar-alt"></i> 24 Months of Support</li>
+                                <li><i class="fas fa-globe"></i> Single Domain Use</li>
+                                <li><i class="fas fa-briefcase"></i> Commercial Project Use</li>
+                                <li><i class="fas fa-envelope"></i> Email Support (2 business days)</li>
+                                <li><i class="fab fa-skype"></i> Skype Support</li>
+                                <li><i class="fas fa-desktop"></i> Anydesk/Teamviewer Support</li>
+                                <li><i class="fab fa-whatsapp"></i> WhatsApp Support</li>
+                                <li><i class="fas fa-server"></i> Free Installation on cPanel</li>
+                            </ul>
+                            <button class="btn btn-primary w-100">Choose Plan</button>
                         </div>
                     </div>
                 </div>
@@ -654,109 +635,120 @@
             </div>
         </div>
 
-        <!-- ================= FAQ (psgeSixth)================= -->
-        <div class="pageEight container mx-auto">
-            <h2 class="heading-xl headingBold textEffect text-center">Frequently Asked Question(FAQ)
-            </h2>
-            <h3 class="text-lg text-center textColor primaryReg mb-5 mt-3">Find out the most frequently asked question
-                about web development services.
-            </h3>
-            <div class="accordion" id="FAQ">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What services do you offer for website development?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#FAQ">
-                        <div class="accordion-body">
-                            We offer a comprehensive range of website development services, including custom web design,
-                            front-end and back-end development, e-commerce solutions, content management systems (CMS)
-                            integration, responsive design, and website maintenance and support.
+        <!-- ================= FAQ (pageSixth)================= -->
+        <div class="FAQ">
+            <div class=" container mx-auto">
+                <h2 class="heading-xl headingBold textEffect text-center">Frequently Asked Question(FAQ)
+                </h2>
+                <h3 class="text-lg text-center textColor primaryReg mb-5 mt-3">Find out the most frequently asked
+                    question
+                    about web development services.
+                </h3>
+                <div class="accordion" id="FAQ">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What services do you offer for website development?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                We offer a comprehensive range of website development services, including custom web
+                                design,
+                                front-end and back-end development, e-commerce solutions, content management systems
+                                (CMS)
+                                integration, responsive design, and website maintenance and support.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            How long does it take to develop a website?
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#FAQ">
-                        <div class="accordion-body">
-                            The timeline for website development varies depending on the complexity and scope of the
-                            project. A simple website might take 4-6 weeks, while a more complex site could take 3-6
-                            months. We'll provide a detailed timeline during the project planning phase.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How long does it take to develop a website?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                The timeline for website development varies depending on the complexity and scope of the
+                                project. A simple website might take 4-6 weeks, while a more complex site could take 3-6
+                                months. We'll provide a detailed timeline during the project planning phase.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Do you provide hosting and domain registration services?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#FAQ">
-                        <div class="accordion-body">
-                            Yes, we offer hosting and domain registration services as part of our website development
-                            package. We can help you choose the right hosting plan and register your domain name,
-                            ensuring a smooth launch for your website.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Do you provide hosting and domain registration services?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                Yes, we offer hosting and domain registration services as part of our website
+                                development
+                                package. We can help you choose the right hosting plan and register your domain name,
+                                ensuring a smooth launch for your website.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Can you redesign my existing website?
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                        data-bs-parent="#FAQ">
-                        <div class="accordion-body">
-                            Absolutely! We specialize in website redesigns and can help modernize your existing site
-                            with a fresh look, improved functionality, and better user experience. We'll work with you
-                            to understand your goals and create a design that aligns with your brand and business
-                            objectives.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Can you redesign my existing website?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                Absolutely! We specialize in website redesigns and can help modernize your existing site
+                                with a fresh look, improved functionality, and better user experience. We'll work with
+                                you
+                                to understand your goals and create a design that aligns with your brand and business
+                                objectives.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            Do you provide ongoing maintenance and support after the website is launched?
-                        </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                        data-bs-parent="#FAQ">
-                        <div class="accordion-body">
-                            Yes, we offer ongoing maintenance and support services to ensure your website remains
-                            secure, up-to-date, and performs optimally. Our support packages include regular updates,
-                            security patches, backups, and technical assistance as needed.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Do you provide ongoing maintenance and support after the website is launched?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                Yes, we offer ongoing maintenance and support services to ensure your website remains
+                                secure, up-to-date, and performs optimally. Our support packages include regular
+                                updates,
+                                security patches, backups, and technical assistance as needed.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingSix">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            How do you ensure my website is mobile-friendly and responsive?
-                        </button>
-                    </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                        data-bs-parent="#FAQ">
-                        <div class="accordion-body">
-                            We design and develop all our websites with a mobile-first approach, ensuring they are fully
-                            responsive and work seamlessly across all devices and screen sizes. We use modern frameworks
-                            and techniques to create flexible layouts that adapt to different viewports, providing an
-                            optimal user experience on desktops, tablets, and smartphones.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                How do you ensure my website is mobile-friendly and responsive?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                            data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                We design and develop all our websites with a mobile-first approach, ensuring they are
+                                fully
+                                responsive and work seamlessly across all devices and screen sizes. We use modern
+                                frameworks
+                                and techniques to create flexible layouts that adapt to different viewports, providing
+                                an
+                                optimal user experience on desktops, tablets, and smartphones.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -764,23 +756,25 @@
         </div>
 
         <!-- ================= Book,a,Call(beforeFooter)================= -->
-        <div class="bookCall container px-5 mx-auto">
-            <div class="row bookCallDiv align-items-center justify-content-center">
-                <img src="imgs/dot.png" alt="">
-                <div class="col-lg-8">
-                    <h3 class="heading-lg headingBold ms-5">Have a Project in mind? <br> lets talk!</h3>
-                </div>
-                <div class="col-lg-4 py-5 d-flex
-                                                flex-column gap-3">
-                    <a class="ScrollLeft" href="">Book a Call</a>
-                    <a class="ScrollLeft" href="">Contact US</a>
+        <div class="secondaryBg py-5">
+            <div class="bookCall container px-5 mx-auto">
+                <div class="row bookCallDiv align-items-center justify-content-center">
+                    <img src="imgs/dot.png" alt="">
+                    <div class="col-lg-8">
+                        <h3 class="heading-lg headingBold ms-5">Have a Project in mind? <br> lets talk!</h3>
+                    </div>
+                    <div class="col-lg-4 py-5 d-flex
+                                                            flex-column gap-3">
+                        <a class="ScrollLeft" href="">Book a Call</a>
+                        <a class="ScrollLeft" href="">Contact US</a>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- ================= Footer================= -->
-        <footer>
-            <div class=" container mx-auto row">
+        <!-- ================= footer================= -->
+        <footer class="secondaryBg">
+            <div class=" container mx-auto row ">
                 <div class="col-lg-4 col-md-4">
                     <img class src="/imgs/Lilium-Logo-Color .png" alt="logo">
                     <p class="textColor text-mid">Transform your business with <br> Lilium Info Tech's comprehensive
@@ -822,10 +816,49 @@
             </div>
         </footer>
 
+    </div>
 
-        <script src="js/swiper-bundle.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/main.js"></script>
+    <!-- =================Modal ================= -->
+    <div class="modal fade show" id="appointment" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content radius_20">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row gx-3 gx-lg-5">
+                            <div class="col-lg-5">
+                                <div class="appointment-modal-L">
+                                    <img class="img-fluid" src="imgs/1st.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7 text-center d-flex align-items-center justify-content-center">
+                                <div class="appointment-modal-R">
+                                    <h2 class="fs-4 mb-4">Thinking <span class="appointment-text-color">Hassle
+                                            Free</span>
+                                        <br> Software Development Service?
+                                    </h2>
+                                    <p>We provide custom software development services for business ERP solutions,
+                                        blockchain, hospitality, e-commerce, e-learning &amp; others.</p>
+                                    <a href="https://www.bdtask.com/custom-order.html" target="_blank"
+                                        class="appointmentBtn mb-3">Book Appointment</a>
+                                    <p class="fs-14">For <span class="appointment-text-color">30 Minutes</span> Free
+                                        Consultancy</p>
+                                    <img src="imgs/Lilium-Logo-Color .png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/modal.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

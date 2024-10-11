@@ -211,9 +211,9 @@
     border-bottom: 2px solid rgba(0, 0, 0, 0.309);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
-  .allProducts {
+  /* .allProducts {
     display: none;
-  }
+  } */
 
   .navMenu.active {
     display: flex;

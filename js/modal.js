@@ -1,26 +1,28 @@
-// document.addEventListener("DOMContentLoaded", function () {
-//   var modal = document.getElementById("myModal");
-//   var span = document.getElementsByClassName("close")[0];
+document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("appointment");
+  const closeBtn = modal.querySelector(".btn-close");
+  let modalShown = false;
 
-//   function showModal() {
-//     modal.classList.add("show");
-//   }
+  function showModal() {
+    if (!modalShown) {
+      modal.classList.add("show");
+      modal.style.display = "block";
+      modalShown = true;
+    }
+  }
 
-//   function hideModal() {
-//     modal.classList.remove("show");
-//   }
+  function hideModal() {
+    modal.classList.remove("show");
+    modal.style.display = "none";
+    modalShown = false;
+  }
+  setInterval(showModal, 10000);
 
-//   // Show modal immediately and then every 60 seconds
-//   showModal();
-//   setInterval(showModal, 60000);
+  closeBtn.addEventListener("click", hideModal);
 
-//   // Close modal when clicking on <span> (x)
-//   span.onclick = hideModal;
-
-//   // Close modal when clicking outside of it
-//   window.onclick = function (event) {
-//     if (event.target == modal) {
-//       hideModal();
-//     }
-//   };
-// });
+  window.addEventListener("click", function (event) {
+    if (event.target === modal) {
+      hideModal();
+    }
+  });
+});

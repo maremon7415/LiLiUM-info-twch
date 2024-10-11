@@ -115,7 +115,7 @@
                     systems, creative graphic design, digital marketing, and video editing, we deliver innovative
                     solutions that drive
                     growth and success.</p>
-                <a class="primaryBtn mt-4 ScrollLeft" href="">Get in Touch</a>
+                <a id="testModalBtn" class="primaryBtn mt-4 ScrollLeft" href="">Get in Touch</a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
                 <img src="imgs/page1-img.png" class="img-fluid mt-5" alt="">
@@ -124,7 +124,7 @@
 
         <!-- ================= SectTwo================= -->
         <div class="secTwo container mx-auto">
-            <div class="row justify-content-center g-4">
+            <div class="row justify-content-center g-4 mb-5">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="highlight-card contentCenter primaryColor ScrollBottom h-100">
                         <i class="ri-sound-module-fill heading-xxl"></i>
@@ -317,9 +317,9 @@
         <div class="why-chose">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
-                        <h3 class="primaryReg textEffect heading-lg headingBold">Why choose us</h2>
-                            <h6 class="headingBold heading-xxl primaryColor my-3">We help you to <br> make
+                    <div class="col-lg-6 d-flex flex-column justify-content-center">
+                        <h3 class="primaryReg textEffect heading-lg headingBold ">Why choose us</h2>
+                            <h6 class="headingBold heading-xxl primaryColor my-3 ">We help you to <br> make
                                 work easy
                             </h6>
                             <p>We understand what your business means to you, your requirements
@@ -337,14 +337,14 @@
                             <div class="col">
                                 <div class="highlight-card primaryColor cardTwo">
                                     <i class="ri-sound-module-fill heading-xxl" aria-hidden="true"></i>
-                                    <h5 class="headingBold heading-lg mx-auto">Web Development</h5>
+                                    <h5 class="headingBold heading-lg text-center mx-auto w-100">Web Development</h5>
                                     <p class="primaryReg">A complete web app solution for business.</p>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="highlight-card primaryColor cardThree">
                                     <i class="ri-search-2-line heading-xxl " aria-hidden="true"></i>
-                                    <h5 class="headingBold heading-lg mx-auto">Content Management</h5>
+                                    <h5 class="headingBold heading-lg mx-auto w-100">Content Management</h5>
                                     <p class="primaryReg">A complete web app solution for business.</p>
                                 </div>
                             </div>
@@ -420,8 +420,8 @@
         </div>
 
         <!-- ================= Footer================= -->
-        <footer>
-            <div class=" container mx-auto row">
+        <footer class="secondaryBg mt-5">
+            <div class=" container mx-auto row ">
                 <div class="col-lg-4 col-md-4">
                     <img class src="/imgs/Lilium-Logo-Color .png" alt="logo">
                     <p class="textColor text-mid">Transform your business with <br> Lilium Info Tech's comprehensive
@@ -464,23 +464,46 @@
         </footer>
     </div>
 
-    <!-- =================modal ================= -->
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div class="modal-image">
-                <img src="imgs/about/img.jpg" alt="Modal Image">
-            </div>
-            <div class="modal-text">
-                <h2>Thinking Hassle Free Software Development Service?</h2>
-                <p>We provide custom software development services for business ERP solutions, blockchain, hospitality,
-                    e-commerce, e-learning & others.</p>
-                <button class="book-appointment">Book Appointment</button>
-                <p class="consultation-text">For 30 Minutes Free Consultancy</p>
-                <img src="imgs/Lilium-Logo-Color .png" alt="Lilium Logo" class="logo">
+    <!-- =================Modal ================= -->
+    <div class="modal fade show" id="appointment" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content radius_20">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row gx-3 gx-lg-5">
+                            <div class="col-lg-5">
+                                <div class="appointment-modal-L">
+                                    <img class="img-fluid" src="imgs/1st.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7 text-center d-flex align-items-center justify-content-center">
+                                <div class="appointment-modal-R">
+                                    <h2 class="fs-4 mb-4">Thinking <span class="appointment-text-color">Hassle
+                                            Free</span>
+                                        <br> Software Development Service?
+                                    </h2>
+                                    <p>We provide custom software development services for business ERP solutions,
+                                        blockchain, hospitality, e-commerce, e-learning &amp; others.</p>
+                                    <a href="https://www.bdtask.com/custom-order.html" target="_blank"
+                                        class="appointmentBtn mb-3">Book Appointment</a>
+                                    <p class="fs-14">For <span class="appointment-text-color">30 Minutes</span> Free
+                                        Consultancy</p>
+                                    <img src="imgs/Lilium-Logo-Color .png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
+
+    <!-- =================modal ================= -->
 
     <script src="js/modal.js"></script>
     <script src="js/main.js"></script>

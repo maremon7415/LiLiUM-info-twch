@@ -311,6 +311,26 @@ function slider() {
 }
 slider();
 
+//pricingCrads---------------------
+function pricingCards() {
+  document.addEventListener("DOMContentLoaded", function () {
+    const cards = document.querySelectorAll(".pricing-card");
+
+    cards.forEach((card) => {
+      card.addEventListener("mouseenter", function () {
+        cards.forEach((c) => c.classList.remove("active"));
+        this.classList.add("active");
+      });
+
+      card.addEventListener("click", function () {
+        cards.forEach((c) => c.classList.remove("active"));
+        this.classList.add("active");
+      });
+    });
+  });
+}
+pricingCards();
+
 //modal------------------------------
 
 // ScrollReveal-------------------------------------
