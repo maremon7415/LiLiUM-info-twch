@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
     modal.style.display = "none";
     modalShown = false;
   }
-  setInterval(showModal, 10000);
+  setTimeout(showModal, 15000);
+  setInterval(showModal, 90000);
 
   closeBtn.addEventListener("click", hideModal);
 
