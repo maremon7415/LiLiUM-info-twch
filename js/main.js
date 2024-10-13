@@ -253,7 +253,7 @@ function counter() {
   const observerOptions = {
     root: null,
     rootMargin: "0px",
-    threshold: 0.1, // Trigger when 10% of the target is visible
+    threshold: 0.1,
   };
 
   const observer = new IntersectionObserver((entries) => {
@@ -283,7 +283,7 @@ document.addEventListener("DOMContentLoaded", () => {
   counter();
 });
 
-//slider/swiper--------------------------------
+//slider/swiperJS--------------------------------
 function slider() {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
@@ -331,10 +331,8 @@ function pricingCards() {
 }
 pricingCards();
 
-//modal------------------------------
-
 // ScrollReveal-------------------------------------
-ScrollReveal().reveal(".ScrollTop", {
+ScrollReveal().reveal(".ScrollTop ,h1,h2,h3,h4,h5,h6", {
   duration: 1000,
   origin: "top",
   distance: "100px",
@@ -354,16 +352,6 @@ ScrollReveal().reveal(".ScrollRight", {
   distance: "100px",
   delay: 500,
 });
-
-ScrollReveal().reveal(
-  ".Scale0, .service-card, .counter-card, .industry-card, .expertiseCard, .teamCard, .awards-card, .ssCard",
-  {
-    scale: 0,
-    duration: 1000,
-    easing: "ease-in-out",
-    delay: 500,
-  }
-);
 
 ScrollReveal().reveal(" .ScrollBottom", {
   duration: 1500,

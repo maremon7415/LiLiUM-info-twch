@@ -157,15 +157,6 @@
 .secondaryColor {
   color: #fff;
 }
-.secondaryBg {
-  background: linear-gradient(
-    270deg,
-    #000304,
-    #020003fd,
-    #000304,
-    #020003fd
-  ) !important;
-}
 
 /* ================ BgColors================= */
 
@@ -183,6 +174,15 @@
     background-position: 0% 50%;
   }
 }
+.secondaryBg {
+  background: linear-gradient(
+    270deg,
+    #000304,
+    #020003fd,
+    #000304,
+    #020003fd
+  ) !important;
+}
 
 /* ================ CustomDisplayProperty================= */
 
@@ -198,7 +198,8 @@
   justify-content: center;
 }
 
-/* ================ CustomBtn================= */
+/* ================ CustomBtns================= */
+/* ================ PrimaryBtn================= */
 .primaryBtn {
   position: relative;
   padding: 12px 25px;
@@ -286,7 +287,7 @@
   animation: pulse 1.5s infinite;
 }
 
-/* ================normalBtn ================= */
+/* ================Secondary/NormalBtn================= */
 
 .normalBtn {
   background: none;
